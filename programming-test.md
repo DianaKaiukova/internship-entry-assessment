@@ -251,12 +251,12 @@ This exercise focuses on strategies for working with existing code bases and ens
 
 1.
 
-- In order to approch understanding and contribute to an existeing code with minimal disruption I would firstly look at the code and read its documentation. Then I would ask some questions about it to the team and go to the parts that need improvement. Then I will run only the parts that I will work with and make all the corrections in the copy of the file. After it I will sugest my improvements to the team and apply them if they appove them.
-- I will copy the existing style, name and architecture. Also, I will try to avoid global corrections and try to make everything as local as possible. Moreover, I would ask the teammembers to approve my code in order to avoid mistakes.
+- In order to approach understanding and contribute to an existing code with minimal disruption I would firstly look at the code and read its documentation. Then I would ask some questions about it to the team and go to the parts that need improvement. Then I will run only the parts that I will work with and make all the corrections in the copy of the file. After it I will suggest my improvements to the team and apply them if they appove them.
+- I will copy the existing style, name and architecture. Also, I will try to avoid global corrections and try to make everything as local as possible. Moreover, I would ask the team members to approve my code in order to avoid mistakes.
 
 2.
-- I would use "single responsebility technique" - one reason for a change before test run and "open/closed technique" - code is open for extensions but closed for modifications. I will also leave comments for the teammembers to explain what I do.
-- I believe that Dogstring and API-Documentation are the best way to keep-up with documentation. It is automated and easy in use. Also in-line comments are a good idea for a long-term meintainability.
+- I would use "single responsibility technique" - one reason for a change before test run and "open/closed technique" - code is open for extensions but closed for modifications. I will also leave comments for the team members to explain what I do.
+- I believe that Dogstring and API-Documentation are the best way to keep-up with documentation. It is automated and easy in use. Also in-line comments are a good idea for a long-term maintainability.
 
 3.
 - I would use desing patterns in order to allow new logic without modifying core classes. Also I would use Dependency injection to make modules easier to to test and swap out. Interface segregation can also be helpful in this context because small nterfaces prevent bloated classes.
