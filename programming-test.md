@@ -203,7 +203,7 @@ Try to explain as many key features of object-oriented programming as you can fi
 
    Class "D" overrides method "print_name()" from class "A".
 
-6) Mothod overloading
+6) Method overloading
 
    Class "C" defines a method "print_name(message)" while class "A" already has method "print_name()". This simulates overloading.
 
@@ -255,7 +255,7 @@ This exercise focuses on strategies for working with existing code bases and ens
 - I will copy the existing style, name and architecture. Also, I will try to avoid global corrections and try to make everything as local as possible. Moreover, I would ask the teammembers to approve my code in order to avoid mistakes.
 
 2.
-- I would use "single responsebility technique" - one reason for a change before test run and "open/closed technique" - code is open forextensions but closed for modifications. I will also leave comments for the teammembers to explain what I do.
+- I would use "single responsebility technique" - one reason for a change before test run and "open/closed technique" - code is open for extensions but closed for modifications. I will also leave comments for the teammembers to explain what I do.
 - I believe that Dogstring and API-Documentation are the best way to keep-up with documentation. It is automated and easy in use. Also in-line comments are a good idea for a long-term meintainability.
 
 3.
