@@ -197,7 +197,7 @@ Try to explain as many key features of object-oriented programming as you can fi
 
 4) Polymorphism
 
-   Method "print_name()" behaves differently in "C" and "D" which allows polymorthic behaviour.
+   Method "print_name()" behaves differently in "C" and "D" which allows polymorphic behaviour.
 
 5) Method overriding
 
@@ -211,7 +211,7 @@ Try to explain as many key features of object-oriented programming as you can fi
 
    Function "print_name()" is an example of an object.
    
-   An object is a self-contained unit that cambines data and behaviour.
+   An object is a self-contained unit that combines data and behaviour.
 
 9) Classes
 
@@ -223,7 +223,7 @@ Try to explain as many key features of object-oriented programming as you can fi
 
     Method "__init__(self, name: str)" is a constructor.
     
-   Constructores are used for overloading, which means that multiple objects can be used with the same name.
+   Constructors are used for overloading, which means that multiple objects can be used with the same name.
 
    
 ---
